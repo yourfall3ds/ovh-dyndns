@@ -1,0 +1,11 @@
+services:
+  ovh-dyndns:
+    build: .
+    container_name: ovh-dyndns
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - TZ=Europe/Paris
+
+

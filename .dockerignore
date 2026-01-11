@@ -1,0 +1,24 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.iml
+
+# Build artifacts
+build/
+build.ps1
+ovh-dyndns
+*.exe
+*.dll
+
+# Docker related
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Environment files (never include the real .env in the image if used locally)
+.env
+.env.example
