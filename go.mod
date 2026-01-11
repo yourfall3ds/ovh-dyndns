@@ -1,4 +1,4 @@
-module ovh-dyndns
+module github.com/mateo08c/ovh-dyndns
 
 go 1.24
 

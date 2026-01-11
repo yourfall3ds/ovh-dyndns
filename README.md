@@ -26,6 +26,7 @@ This application runs as a background service to automatically detect Public IP 
 - **Automated DNS Updates**: Monitors public IP and updates OVH DNS records when a change is detected.
 - **Failover Redundancy**: Queries multiple IP providers (`ipify`, `icanhazip`, `ifconfig.me`) to ensure connectivity is always accurately verified.
 - **IPv4 Forced**: Ensures only valid IPv4 addresses are used for 'A' records, anticipating network stack preferences.
+- **Secure Authentication**: Uses OVH native OAuth2 tokens (App Key/Secret & Consumer Key) instead of risky username/password storage.
 - **Subdomain Support**: Works with specific subdomains (e.g., `vpn.example.com`) or root domains.
 - **Docker Native**: Includes optimized `Dockerfile` (multi-stage build) and `docker-compose.yml` for easy deployment.
 - **Metrics & Logging**: Provides clear logs and hourly metrics about successful updates and check status.
@@ -34,7 +35,7 @@ This application runs as a background service to automatically detect Public IP 
 
 Before running the application, you need to generate API credentials from OVH.
 
-1.  Go to the [OVH Create Token](https://eu.api.ovh.com/createToken/) page.
+1.  Go to the [OVH Create Token](https://api.ovh.com/createToken/) page.
 2.  Set the validity to "Unlimited".
 3.  Grant the following permissions:
     - `GET /domain/zone/*`
@@ -126,4 +127,3 @@ Contributions are welcome! Please feel free to inspect the code, open issues for
 ## License
 
 This project is open-source and available under the MIT License.
-
