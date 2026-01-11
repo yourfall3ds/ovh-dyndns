@@ -23,6 +23,7 @@ go.work
 # Binary output
 build/
 .build/
+dist/
 
 # Environment files
 .env
